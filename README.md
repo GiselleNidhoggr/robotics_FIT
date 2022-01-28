@@ -1,5 +1,8 @@
 <font style="font-size: 40px" color='purple'>ROBOTICS</font>
 <br><br>
+<image src='https://octodex.github.com/images/droidtocat.png' width="80" height="100">
+  
+<br>
 
 # Purpose 
 

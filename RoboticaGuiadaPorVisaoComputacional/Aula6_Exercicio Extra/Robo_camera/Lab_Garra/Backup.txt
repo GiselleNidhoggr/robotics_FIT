@@ -1,0 +1,27 @@
+ENVT0100,LM:2022/01/20 13:25:33:419,DS:0000000717,CS:21002,MA:0A-00-27-00-00-10,EI:           
+General {
+	sDate="2022/01/20 13:25:33:386"
+	sVersion="7. 5. 0. 0"
+	sSerial="0"
+	nFileVersion=200
+	nMnpCount=1
+	nCurrentMnpNo=1
+	nPrjFileCount=9
+	nPCInfoFileCount=1
+}
+Files {
+	sF000="/Mounted Volume/InitFileSrc.txt"
+	sF001="/CurrentMnp01.PRM"
+	sF002="/Mounted Volume/MCSys01.MCD"
+}
+PrjFiles {
+	sF000="/Temp/Project/IOLabels.dat"
+	sF001="/Temp/Project/Lab5.fg"
+	sF002="/Temp/Project/Lab5.obj"
+	sF003="/Temp/Project/Lab5.sprj"
+	sF004="/Temp/Project/Lab5.vis"
+	sF005="/Temp/Project/Main.prg"
+	sF006="/Temp/Project/Main2.prg"
+	sF007="/Temp/Project/robot1.pts"
+	sF008="/Temp/Project/UserErrors.dat"
+}

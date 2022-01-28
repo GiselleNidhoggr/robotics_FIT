@@ -1,0 +1,44 @@
+ENVT0100,LM:2021/09/11 16:05:50:456,DS:0000000706,CS:14887,MA:4C-D9-8F-FC-54-FF,EI:           
+sRCVersion="7.4.7"
+InputBitLabels {
+	nNumberOfLabels=1
+	Label1 {
+		nBit=8
+		sLabel="Garra_fechada"
+		sDescription=""
+	}
+}
+InputByteLabels {
+	nNumberOfLabels=0
+}
+InputWordLabels {
+	nNumberOfLabels=0
+}
+OutputBitLabels {
+	nNumberOfLabels=1
+	Label1 {
+		nBit=8
+		sLabel="fechar_garra"
+		sDescription=""
+	}
+}
+OutputByteLabels {
+	nNumberOfLabels=0
+}
+OutputWordLabels {
+	nNumberOfLabels=0
+}
+MemoryBitLabels {
+	nNumberOfLabels=1
+	Label1 {
+		nBit=0
+		sLabel="continuar_led"
+		sDescription=""
+	}
+}
+MemoryByteLabels {
+	nNumberOfLabels=0
+}
+MemoryWordLabels {
+	nNumberOfLabels=0
+}

@@ -1,0 +1,60 @@
+topic: ~ChildDialog()
+language: enu
+
+# Keywords of concept.
+concept:(greeting) ["good morning" hello hi hey "good morning everyone"]
+concept:(how) ["how are you doing" "how are you" "what's up" "how do you feel"]
+concept:(goodhumor) ["fine, thanks" good fine "feeling great" "doing good" ok great happy "all right" glad "not bad"]
+concept:(badhumor) ["not good" depressed blue sad bad unhappy tired]
+concept:(yes) [yes "all right" sure "why not" ok certainly "very well" yep yea definitely "I do"]
+concept:(no) [no nope "don't want" "no way" "I don't like it" "hate it"never "not at all"]
+concept:(how) ["how are you" "what's up" "how do you feel"]
+concept:(thx) ["thank you" thanks]
+concept:(bye) [bye goodbye "bye bye" "tata" "see you" "see you soon" "so long, so long, and thanks for all the fishes" "so long" farewell "have a nice day"]
+
+
+# Start/Wait animation, Goto.
+# If User use any word found in "greeting",
+# the robot starts Hey_1 animation, answers a random value defined in concept "greeting"
+# Then go to label ~how. That's a label: %howAreYou
+u:(~greeting) ^start(animations/Stand/Gestures/Hey_1) ~greeting ^wait(animations/Stand/Gestures/Hey_1) ^gotoReactivate(howAreYou)
+
+# Tag animation.
+# If User asks how the robot feels, it starts a random animation named "IcantFeel",
+# answers and go to the label %howAreYou
+u:(~how) ^startTag(IcantFeel) Good good. And you? ^gotoReactivate(howAreYou)
+
+
+# %Label.
+# The robot asks how the user feels.
+# Is expected to have only two answers, expressed by concept of good humor and bad humor.
+proposal: %howAreYou ^startTag(show) how are you?
+    u1:(~goodhumor) That's great! ^gotoReactivate(favoriteSport)
+    u1:(~badhumor) Oh no. ^nextProposal
+
+# Output.
+# If User is down, the robot proposes to play a game called "SportGame".
+# If User accepts, they go to "SportGame".
+proposal: Hope things get better soon. ^nextProposal
+proposal: %SportGame Do you want to play a game?
+    u1:(~yes) Nice! Let's play $SportGame=1
+    u1:(~no) Ok, as you wish.
+
+# Variables.
+# the robot asks if the user prefer volleyball or football.
+# $1 stores values .
+proposal: %favoriteSport Do you prefer volleyball or football ?
+    u1:(football) Football is nice. Volleyball is my favourite! ^gotoReactivate(SportGame)
+    u1:(_[volley volleyball]) $1 is a nice sport.  Volleyball is my favourite! ^gotoReactivate(SportGame)
+    u1:(_[soccer tennis chess rugby basket basketball pingpong waterpolo swimming other]) Sports are good to healthy. ^sameProposal
+
+
+# Being cocky, the robot reply as it's the best one on world, when User says thankfully sentences.
+u:(~thx) I know, Im the best.
+
+# Exiting.
+# Answering to Goodbye and exiting the dialog box, stimulating the onStopped output slot.
+u:(~bye) ~bye $onStopped=1
+
+
+

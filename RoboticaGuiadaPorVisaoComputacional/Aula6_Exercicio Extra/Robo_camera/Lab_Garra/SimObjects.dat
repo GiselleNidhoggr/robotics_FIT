@@ -1,0 +1,356 @@
+ENVT0100,LM:2022/01/20 13:24:31:683,DS:0000005519,CS:14395,MA:0A-00-27-00-00-10,EI:           
+sVersion="7.4.0"
+nNumberOfObjects=23
+Object1 {
+	nObjectID=1
+	nObjectType=0
+	sObjectTypeName="Robot"
+	nParentID=0
+	sName="robot1"
+	nRobotNumber=1
+	Position {
+		rX=0
+		rY=0
+		rZ=0
+	}
+	Rotation {
+		rX=0
+		rY=0
+		rZ=0
+	}
+	Collision {
+		bCheck=True
+		bCheckSelf=True
+		bDuctArea=True
+		sColor="ffa80000"
+	}
+	bTransparent=False
+	nTransparency=50
+	nMnpType=5
+	BoundingBox {
+		bVisible1=False
+		rExpandExtent1=0.0001
+		bCheckCollision1=False
+		bVisible2=False
+		rExpandExtent2=0.0001
+		bCheckCollision2=False
+		bVisible3=False
+		rExpandExtent3=0.0001
+		bCheckCollision3=False
+		bVisible4=False
+		rExpandExtent4=0.0001
+		bCheckCollision4=False
+		bVisible5=False
+		rExpandExtent5=0.0001
+		bCheckCollision5=False
+		bVisible6=False
+		rExpandExtent6=0.0001
+		bCheckCollision6=False
+		bVisible7=False
+		rExpandExtent7=0.0001
+		bCheckCollision7=False
+	}
+	BoundingBox1 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+	BoundingBox2 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+	BoundingBox3 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+	BoundingBox4 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+	BoundingBox5 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+	BoundingBox6 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+	BoundingBox7 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+	nRenderLocal=1
+	nRenderTool=0
+	nRenderECP=0
+	nRenderBox=0
+	nRenderPlane=0
+	nRenderPlaneOrigin=0
+	nRenderPallet=0
+}
+Object9 {
+	nObjectID=9
+	nObjectType=4
+	sObjectTypeName="Plane"
+	sName="SPlane_1"
+	nPlaneType=0
+	Position {
+		rX=0
+		rY=0
+		rZ=0
+	}
+	HalfSize {
+		rX=2000
+		rY=2000
+		rZ=2000
+	}
+	Rotation {
+		rX=0
+		rY=0
+		rZ=0
+	}
+	sColor="7f000066"
+	bVisible=True
+	bShowLabel=False
+	bShowOrigin=False
+	Collision {
+		bCheck=True
+		nShowResult=0
+		sColor="ffa80000"
+	}
+	CollisionPoint {
+		nRadius=5
+		sColor="ffa80000"
+	}
+}
+Object10 {
+	nObjectID=10
+	nObjectType=2
+	sObjectTypeName="Box"
+	nParentID=9
+	sName="Plano"
+	Position {
+		rX=37.155
+		rY=430.508
+		rZ=89.664
+	}
+	HalfSize {
+		rX=200
+		rY=200
+		rZ=25
+	}
+	Rotation {
+		rX=0
+		rY=0
+		rZ=0
+	}
+	sColor="ff1a72bd"
+	bVisible=True
+	bShowLabel=False
+	bShowOrigin=False
+	Collision {
+		bCheck=True
+		nShowResult=0
+		sColor="ffa80000"
+	}
+	CollisionPoint {
+		nRadius=5
+		sColor="ffa80000"
+	}
+}
+Object11 {
+	nObjectID=11
+	nObjectType=7
+	sObjectTypeName="Hand"
+	nParentRobotNumber=1
+	sName="Hand_1"
+	nMountPosition=0
+	Position {
+		rX=0
+		rY=0
+		rZ=3
+	}
+	Rotation {
+		rX=-90
+		rY=0
+		rZ=-3
+	}
+	sFilename="C:\\EpsonRC70\\Simulator\\Lab_Garra\\Garra.STEP"
+	nRenderingQuality=0
+	nUnit=2
+	rScale=1
+	bVisible=True
+	bShowLabel=True
+	bShowOrigin=False
+	Collision {
+		bCheck=True
+		sColor="ffa80000"
+	}
+	bTransparent=False
+	nTransparency=50
+	BoundingBox {
+		bVisible0=False
+		rExpandExtent0=0.0001
+		bCheckCollision0=False
+		bVisible1=False
+		rExpandExtent1=0.0001
+		bCheckCollision1=False
+		bVisible2=False
+		rExpandExtent2=0.0001
+		bCheckCollision2=False
+		bVisible3=False
+		rExpandExtent3=0.0001
+		bCheckCollision3=False
+		bVisible4=False
+		rExpandExtent4=0.0001
+		bCheckCollision4=False
+		bVisible5=False
+		rExpandExtent5=0.0001
+		bCheckCollision5=False
+		bVisible6=False
+		rExpandExtent6=0.0001
+		bCheckCollision6=False
+		bVisible7=False
+		rExpandExtent7=0.0001
+		bCheckCollision7=False
+		bVisible8=False
+		rExpandExtent8=0.0001
+		bCheckCollision8=False
+	}
+	BoundingBox0 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+	BoundingBox1 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+	BoundingBox2 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+	BoundingBox3 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+	BoundingBox4 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+	BoundingBox5 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+	BoundingBox6 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+	BoundingBox7 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+	BoundingBox8 {
+		sColor="7fffd900"
+		sCollisionColor="ffa80000"
+	}
+}
+Object21 {
+	nObjectID=21
+	nObjectType=2
+	sObjectTypeName="Box"
+	sName="Q1"
+	Position {
+		rX=145
+		rY=373
+		rZ=147
+	}
+	HalfSize {
+		rX=25
+		rY=25
+		rZ=25
+	}
+	Rotation {
+		rX=0
+		rY=0
+		rZ=0
+	}
+	sColor="ff00ff00"
+	bVisible=True
+	bShowLabel=False
+	bShowOrigin=False
+	Collision {
+		bCheck=True
+		nShowResult=0
+		sColor="ffa80000"
+	}
+	CollisionPoint {
+		nRadius=5
+		sColor="ffa80000"
+	}
+}
+Object22 {
+	nObjectID=22
+	nObjectType=2
+	sObjectTypeName="Box"
+	sName="Q2"
+	Position {
+		rX=22
+		rY=428
+		rZ=146
+	}
+	HalfSize {
+		rX=25
+		rY=25
+		rZ=25
+	}
+	Rotation {
+		rX=0
+		rY=0
+		rZ=0
+	}
+	sColor="ffffff00"
+	bVisible=True
+	bShowLabel=False
+	bShowOrigin=False
+	Collision {
+		bCheck=True
+		nShowResult=0
+		sColor="ffa80000"
+	}
+	CollisionPoint {
+		nRadius=5
+		sColor="ffa80000"
+	}
+}
+Object23 {
+	nObjectID=23
+	nObjectType=2
+	sObjectTypeName="Box"
+	sName="Q3"
+	Position {
+		rX=-85
+		rY=487
+		rZ=146
+	}
+	HalfSize {
+		rX=25
+		rY=25
+		rZ=25
+	}
+	Rotation {
+		rX=0
+		rY=0
+		rZ=0
+	}
+	sColor="ffff00ff"
+	bVisible=True
+	bShowLabel=False
+	bShowOrigin=False
+	Collision {
+		bCheck=True
+		nShowResult=0
+		sColor="ffa80000"
+	}
+	CollisionPoint {
+		nRadius=5
+		sColor="ffa80000"
+	}
+}

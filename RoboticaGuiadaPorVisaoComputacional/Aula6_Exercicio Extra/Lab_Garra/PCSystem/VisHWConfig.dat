@@ -1,0 +1,14 @@
+ENVT0100,LM:2021/09/10 18:07:36:371,DS:0000000325,CS:30734,MA:4C-D9-8F-FC-54-FF,EI:           
+VisionProcessor {
+	nNumOfProcThreads=1
+}
+nNumOfCameras=1
+Camera1 {
+	sModel="acA1600-20gm"
+	sName="Camera 1"
+	bIsVirtual=False
+	sIPAddress="192.168.0.3"
+	sType="NetworkCamera"
+	nChannel=3
+	sSubType="Compact Vision"
+}

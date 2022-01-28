@@ -1,0 +1,85 @@
+ENVT0100,LM:2022/01/19 02:27:06:847,DS:0000001147,CS:22619,MA:0A-00-27-00-00-10,EI:           
+sVersion="2.0.0"
+bDisplayR=False
+bDisplayS=False
+bDisplayT=False
+nNumberOfJoints=6
+nNumberOfPoints=3
+Point1 {
+	nNumber=0
+	sLabel="BolaEsquerda"
+	sDescription=""
+	nUndefined=0
+	rX=180.466
+	rY=476.92
+	rZ=191.826
+	rU=66.841
+	rV=0.916
+	rW=-171.575
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}
+Point2 {
+	nNumber=1
+	sLabel="BolaCentral"
+	sDescription=""
+	nUndefined=0
+	rX=-17.652
+	rY=448.727
+	rZ=191.826
+	rU=66.841
+	rV=0.916
+	rW=-171.575
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}
+Point3 {
+	nNumber=2
+	sLabel="BolaEsquerda2"
+	sDescription=""
+	nUndefined=0
+	rX=180.4
+	rY=476.92
+	rZ=191.826
+	rU=66.841
+	rV=0.916
+	rW=-171.575
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}

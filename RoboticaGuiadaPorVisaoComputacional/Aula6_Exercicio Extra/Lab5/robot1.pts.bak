@@ -1,0 +1,86 @@
+ENVT0100,LM:2021/09/11 19:54:09:920,DS:0000001151,CS:13117,MA:4C-D9-8F-FC-54-FF,EI:           
+sVersion="2.0.0"
+nDisplayMode=4
+bDisplayR=False
+bDisplayS=False
+bDisplayT=False
+nNumberOfJoints=6
+nNumberOfPoints=3
+Point1 {
+	nNumber=0
+	sLabel="Quadrado_1"
+	sDescription=""
+	nUndefined=0
+	rX=152.729
+	rY=362.858
+	rZ=233.439
+	rU=176
+	rV=0.069
+	rW=-179.003
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}
+Point2 {
+	nNumber=1
+	sLabel="Quadrado_2"
+	sDescription=""
+	nUndefined=0
+	rX=37.528
+	rY=429.241
+	rZ=233.439
+	rU=176
+	rV=0.069
+	rW=-179.003
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}
+Point3 {
+	nNumber=2
+	sLabel="Quadrado_3"
+	sDescription=""
+	nUndefined=0
+	rX=-72.541
+	rY=488.543
+	rZ=232.439
+	rU=176
+	rV=0.069
+	rW=-179.003
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}

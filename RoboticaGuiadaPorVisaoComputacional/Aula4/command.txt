@@ -1,0 +1,5 @@
+> pulse 0,0,0,0,0,0
+!!Error: 4031, Cannot execute a motion command when the motor is in the off state.
+> 
+!!Error: 3101, Parameter count error.
+> 
